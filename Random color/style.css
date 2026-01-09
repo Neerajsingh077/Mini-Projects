@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #282828;
+}
+.header{
+    height: 5rem;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.title{
+    font-size: 4.5rem;
+    align-items: center;
+}
+.main{
+    height: 50rem;
+    width: 100%;
+    background-color:#282828;
+    padding: 15px 15px 0px 15px;
+}
+/* random color genrator */
+.colorbox{
+    height: 20rem;
+    width: 100%;
+    background-color: #9e9a9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+.search-bar{
+    height: 4rem;
+    width: 25rem;
+    text-align: center;
+    font-size: 1.5rem; 
+    border-radius: 1rem;
+    border-color: #ffffff;
+}
+.search-bar:hover{
+    border-color: #000000;
+    border-width: 0.20rem;
+}
+.b1,.b2{
+    height: 4rem;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border-color: white;
+}
+.b1:hover,.b2:hover{
+    font-size: 1.7rem;
+    border-color: black;
+}
+
+
+/* colors and shades */
+.heading-1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.content-box{
+    height: auto;
+    width: auto;
+    background-color: #3c3c3c;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards{
+    height: 20rem;
+    width: 25rem;
+    background-color: #64646c;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: rgb(241, 236, 236);
+    margin-bottom: 0.5rem;
+}
+.ct{
+    display: flex;
+    justify-content: center;
+}
+.color-1{
+    height: 70%;
+    width: 100%;
+    background-color:#FF0000;
+    border-radius: 1rem;
+}
+.color-2{
+    height: 70%;
+    width: 100%;
+    background-color:#00FF00;
+    border-radius: 1rem;
+}
+.color-3{
+    height: 70%;
+    width: 100%;
+    background-color:#0000FF;
+    border-radius: 1rem;
+}
+.color-4{
+    height: 70%;
+    width: 100%;
+    background-color:#FFFF00;
+    border-radius: 1rem;
+}
+.color-5{
+    height: 70%;
+    width: 100%;
+    background-color:#FFFFFF;
+    border-radius: 1rem;
+}
+.color-6{
+    height: 70%;
+    width: 100%;
+    background-color:#000000;
+    border-radius: 1rem;
+}
+.heading-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
